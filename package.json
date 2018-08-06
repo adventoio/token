@@ -1,13 +1,15 @@
 {
-  "name": "token",
+  "name": "advento-token",
   "version": "1.0.0",
-  "description": "",
+  "description": "Advento tokensale smart contracts",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "openzeppelin-solidity": "1.11.0"
+    "openzeppelin-solidity": "1.11.0",
+    "cli-interact": "^0.1.9",
+    "sync-request": "^6.0.0"
   },
   "devDependencies": {},
   "scripts": {
