@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.3;
 
 
 /**
@@ -499,7 +499,7 @@ contract AdventoToken is PausableToken{
     string public constant name = "Advento";
     string public constant symbol = "ADV";
     uint32 public constant decimals = 18;
-    uint256 public INITIAL_SUPPLY = 1000000000 * 1 ether;
+    uint256 public INITIAL_SUPPLY = 40000000 * 1 ether;
 
     constructor() public {
         mint(msg.sender, INITIAL_SUPPLY);
